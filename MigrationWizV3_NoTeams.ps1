@@ -309,7 +309,7 @@ try {
                                 New-Item -Path $UserLockPath -Name $UserLockName -ItemType "file" -Force | Out-Null # Creates lock file to prevent from running again
                                 $txtDescription.Text = "Outlook migration completed. `n`n Click Next to setup Multi-Factor Authentication (MFA)."
                                 $txtOutlook_Status.Text = "Completed"
-                                $imgRunOulook.Visibility = "Hidden"
+                                $imgRunOutlook.Visibility = "Hidden"
                                 $imgCptOutlook.Visibility = "Visible"
                                 $script:currentstate = "migrateMFA"
                               }
