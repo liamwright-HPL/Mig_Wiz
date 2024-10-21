@@ -296,7 +296,7 @@ try {
                                 $script:currentstate = "completeOneDrive"
                                 }
             "completeOneDrive" { Start-Process "C:\Program Files\Microsoft OneDrive\OneDrive.exe"
-                                    $txtDescription.Text = "Click Next to start OneDrive migration."
+                                    $txtDescription.Text = "Click Next to start Outlook migration."
                                     $txtOneDrive_Status.Text = "Completed"
                                     $imgRunOneDrive.Visibility = "Hidden"
                                     $imgCptOneDrive.Visibility = "Visible"
