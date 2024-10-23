@@ -206,7 +206,7 @@ try {
 
     #Clickable Hyperlinks to Jira Guides
 
-    $hyperlinkJiraOneDriveURL = "https://bbc.co.uk"
+    $hyperlinkJiraOneDriveURL = "https://hotelplanuk.atlassian.net/wiki/spaces/HSD/pages/2411986948/Migration+Day+Sign+in+Guides+Microsoft+OneDrive"
     $hyperlinkJiraOneDrive = New-Object System.Windows.Documents.Hyperlink
     $hyperlinkJiraOneDrive.NavigateUri = [System.Uri]::new($hyperlinkJiraOneDriveURL)
     $hyperlinkJiraOneDrive.Add_Click({
@@ -214,7 +214,7 @@ try {
                 })
     $hyperlinkJiraOneDrive.Inlines.Add("here")
 
-    $hyperlinkJiraOutlookURL = "https://uk.yahoo.com/"
+    $hyperlinkJiraOutlookURL = "https://hotelplanuk.atlassian.net/wiki/spaces/HSD/pages/2414084097/Migration+Day+Sign+in+Guides+Microsoft+Outlook"
     $hyperlinkJiraOutlook = New-Object System.Windows.Documents.Hyperlink
     $hyperlinkJiraOutlook.NavigateUri = [System.Uri]::new($hyperlinkJiraOutlookURL)
     $hyperlinkJiraOutlook.Add_Click({
@@ -222,7 +222,7 @@ try {
                 })
     $hyperlinkJiraOutlook.Inlines.Add("here")    
 
-    $hyperlinkJiraMFAURL = "https://hotelplan.co.uk"
+    $hyperlinkJiraMFAURL = "https://hotelplanuk.atlassian.net/wiki/spaces/HSD/pages/2066022426/MFA+Setup"
     $hyperlinkJiraMFA = New-Object System.Windows.Documents.Hyperlink
     $hyperlinkJiraMFA.NavigateUri = [System.Uri]::new($hyperlinkJiraMFAURL)
     $hyperlinkJiraMFA.Add_Click({
